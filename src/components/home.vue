@@ -1,6 +1,6 @@
 <template>
   <!-- 跳转页 -->
-  <div class="hello">
+  <div class="box_login">
     <h1>{{ msg }}</h1>
     <div>
       <el-button type="primary" @click="multionHandle()">多表头</el-button>

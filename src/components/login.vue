@@ -25,7 +25,7 @@
         </el-form-item>
         <el-form-item>
           <el-button type="primary" @click="login('dynamicValidateForm')">登录</el-button>
-          <el-button @click="addDomain">新增密码</el-button>
+          <el-button @click="addDomain()">新增密码</el-button>
           <el-button @click="resetForm('dynamicValidateForm')">重置</el-button>
         </el-form-item>
       </el-form>
